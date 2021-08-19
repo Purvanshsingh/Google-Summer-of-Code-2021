@@ -1,4 +1,4 @@
-Final work report of Google Summer of Code 2021 with Hydra Ecosystem
+Final work report of Google Summer of Code'21
 
 # Google Summer of Code 2021 with Hydra Ecosystem
 <div  align="center">
@@ -21,7 +21,7 @@ The idea behind the project is to build a prototype of "APIs for Fintech" with H
   
 ![Introduction](https://user-images.githubusercontent.com/49719371/130047355-379a8da0-9104-4c99-acd0-59f46af53afe.png)
   </div>  
-> 
+  
 ## :paperclip: Working Product
 The Final completed project can be found here:
 
@@ -30,7 +30,7 @@ The Final completed project can be found here:
 
 ## :paperclip: Work and Contributions
 
-We started with building a subset of POC with small Non-Performing Loan ontology. After the sucessfull completion of subset POC, we moved forward with the comlpete Non-Performing Looan ontlogy (All the classes and properties required for Loan portfolio data), where I needed to automate the creation of ApiDocumentation for which I have written two automation scripts:
+We started with building a subset of POC with small Non-Performing Loan ontology. After the sucessfull completion of subset POC, we moved forward with the complete Non-Performing Looan ontlogy (All the classes and properties required for Loan portfolio data), where I needed to automate the creation of ApiDocumentation for which I have written two automation scripts:
 
 * **Vocab_generator:**
 vocab_generator generates “NonPerformingLoan.jsonld” using rdflib and pyld libraries to parse & serialize owl ontology to JSON-LD with the @context.
@@ -39,12 +39,12 @@ nplvocab_parse parses all the classes & properties from“NonPerformingLoan.json
 
 ![Automation_structure](https://user-images.githubusercontent.com/49719371/130070526-077366f3-2def-4a8e-8f58-94aae8c4ce2c.png)
 
-With the help of there two scripts `api_docwriter.py` generates the ApiDocumentation automatically according to Non-performing Loan ontology.
+With the help of there two scripts `api_docwriter.py` can generates the ApiDocumentation automatically according to Non-performing Loan ontology.
 
 I have also developed `Mock_portfolio_generator` which is basically used as a mock_client to populate the database with the more realistic data, It automatically creates the object of the classes on the basis of ApiDocumentation.
-Then I have Re-structured the complete repository according to the python standards and write test using pytest for the API.<br/>
-While working with the creditrisk-poc we encountered an issue that the class attributes (columns) in the database are of type VARCHAR by default for every property in hydrus. After a good discussion with the mentors it was decisde that it's better to have attributes of a similar type as in the hydra property,
-So my GSoC collegue implemented this feature in the hydrus and hydra-python-core, and then finally I was able to use it in creditrisk-poc successfully.
+Then I have Re-structured the complete repository according to the python standards and wrote tests using pytest for the API.<br/>
+While working with the creditrisk-poc we encountered an issue that the class attributes (columns) in the database are of type VARCHAR by default for every property in hydrus. After a good discussion with the mentors it was decided that it's better to have attributes of a similar type as in the hydra property,
+So my GSoC colleague implemented this feature in the hydrus and hydra-python-core, and then finally I was able to use it in creditrisk-poc successfully.
 After the comlpletion of all these task I have tested the API on local system and got it reviewed with the mentors, now we were ready for the last stage i.e **DEPLOYMENT :rocket:**
 
 
@@ -94,9 +94,9 @@ Then I deployed the application Google Cloud Platform's compute engine and the A
 | [#20](https://github.com/HTTP-APIs/creditrisk-poc/issues/20) |Update Readme & Add more docs|
 
 ## :paperclip: Learning and Acknowledgement
-It was an amzing journey filled with lots of learning at each and every stage,I have learned a lot of things from structuring the repository to the deployment, It was mind-blowing experience working as student developer in Google Summer of Code, It was my dream which came true.<br/>
-I am greatful to all my mentros for continously guiding me and clearing my each every doubt, I have gained alot of knowledge and experince, which reflects in my coding style, writing clean and understandable code.</br>
-Thankyou for sharing such an amzing experince and knowledge.   
+It was an adventurous journey filled with lots of learning at each and every stage,I have learned a lot of things from structuring the repository to the deployment, It was mind-blowing experience working as student developer in Google Summer of Code, It was my dream which came true.<br/>
+I am greatful to all my mentros for their continous guidance and clearing my each every doubt, I have gained alot of knowledge and experience, which reflects in my coding style, writing clean and understandable code.</br>
+Thankyou for sharing such an valuable experince and knowledge.   
 
 - [**Lorenzo Moriondo**](https://github.com/Mec-iS)
 - [**Phillipos Papadopoulas**](https://github.com/open-risk)
@@ -104,8 +104,8 @@ Thankyou for sharing such an amzing experince and knowledge.
 - [**Priyanshu Nayan**](https://github.com/priyanshunayan)
 - [**Samesh Lakhotia**](https://github.com/sameshl)
 
-I will be an active member it the organization will encourage the new comers to be the part of amazing organization.<br/>
-I would also like to thanks my GSoC collegue [**Hasan Faraz Khan**](https://github.com/farazkhanfk7) for being an amazing partner in this amazing journey.
+I will be an active member in the organization and will encourage the new comers to be the part of this growing organization.<br/>
+I would also like to thanks my GSoC colleague [**Hasan Faraz Khan**](https://github.com/farazkhanfk7) for being an amazing partner in this marvelous journey.
 
 
 ## :paperclip: Contact
