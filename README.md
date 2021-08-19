@@ -21,7 +21,7 @@ The idea behind the project is to build a prototype of "APIs for Fintech" with H
   
 ![Introduction](https://user-images.githubusercontent.com/49719371/130047355-379a8da0-9104-4c99-acd0-59f46af53afe.png)
   </div>  
-
+> 
 ## :paperclip: Working Product
 The Final completed project can be found here:
 
@@ -92,3 +92,28 @@ Then I deployed the application Google Cloud Platform's compute engine and the A
 | [#16](https://github.com/HTTP-APIs/creditrisk-poc/issues/16) |Refactor the mock_data_generator|
 | [#18](https://github.com/HTTP-APIs/creditrisk-poc/issues/18) |Automate ontology to josnld creation|
 | [#20](https://github.com/HTTP-APIs/creditrisk-poc/issues/20) |Update Readme & Add more docs|
+
+## :paperclip: Learning and Acknowledgement
+It was an amzing journey filled with lots of learning at each and every stage,I have learned a lot of things from structuring the repository to the deployment, It was mind-blowing experience working as student developer in Google Summer of Code, It was my dream which came true.<br/>
+I am greatful to all my mentros for continously guiding me and clearing my each every doubt, I have gained alot of knowledge and experince, which reflects in my coding style, writing clean and understandable code.</br>
+Thankyou for sharing such an amzing experince and knowledge.   
+
+- [**Lorenzo Moriondo**](https://github.com/Mec-iS)
+- [**Phillipos Papadopoulas**](https://github.com/open-risk)
+- [**Chris Andrew**](https://github.com/chrizandr)
+- [**Priyanshu Nayan**](https://github.com/priyanshunayan)
+- [**Samesh Lakhotia**](https://github.com/sameshl)
+
+I will be an active member it the organization will encourage the new comers to be the part of amazing organization.<br/>
+I would also like to thanks my GSoC collegue [**Hasan Faraz Khan**](https://github.com/farazkhanfk7) for being an amazing partner in this amazing journey.
+
+
+## :paperclip: Contact
+
+<a href="http://purvanshsingh.github.io/" >
+  
+  ![Purvansh Singh](https://user-images.githubusercontent.com/49719371/130094699-6f196874-cdd6-4e74-a2c0-702ac920f954.png)
+
+  
+</a>
+
