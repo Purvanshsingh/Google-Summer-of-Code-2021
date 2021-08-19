@@ -30,7 +30,7 @@ The Final completed project can be found here:
 
 ## :paperclip: Work and Contributions
 
-We started with building a subset of POC with small Non-Performing Loan ontology. After the sucessfull completion of subset POC, we moved forward with the complete Non-Performing Looan ontlogy (All the classes and properties required for Loan portfolio data), where I needed to automate the creation of ApiDocumentation for which I have written two automation scripts:
+We started with building a subset of POC with small Non-Performing Loan ontology. After the sucessfull completion of subset POC, we moved forward with the complete Non-Performing Loan ontlogy (All the classes and properties required for Loan portfolio data), where I needed to automate the creation of ApiDocumentation for which I have written two automation scripts:
 
 * **Vocab_generator:**
 vocab_generator generates “NonPerformingLoan.jsonld” using rdflib and pyld libraries to parse & serialize owl ontology to JSON-LD with the @context.
@@ -50,10 +50,10 @@ After the comlpletion of all these task I have tested the API on local system an
 
 [Here](https://drive.google.com/file/d/1HWd72JVtf13P7DdTF3Er2870FVx7c9BM/view?usp=sharing) is the final Database schema with the foreign key relation.
 
-With the help of my GSoC collegue we have dockerized the application and tested it, we have also changed the database from sqlite to postgres.
+With the help of my GSoC colleague we have dockerized the application and tested it, we have also changed the database from sqlite to postgres.
 Then I deployed the application Google Cloud Platform's compute engine and the API is live @ **http://34.145.188.116:8080/ :tada::tada:**
 
-### Pull requests
+### :pushpin: Pull requests
 
 | PR Link                                                                                                                                                              | Description                                              | Status    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------- |
@@ -75,8 +75,9 @@ Then I deployed the application Google Cloud Platform's compute engine and the A
 | [#23](https://github.com/HTTP-APIs/creditrisk-poc/pull/23)|Test doc added| Merged ✅ |
 | [#24](https://github.com/HTTP-APIs/creditrisk-poc/pull/24)|Final ApiDoc created, nplo jsonld & mock_portfolio_generator refactored| Merged ✅ |
 | [#28](https://github.com/HTTP-APIs/creditrisk-poc/pull/28)|hydrus version upadated| Merged ✅ |
+| [#32](https://github.com/HTTP-APIs/creditrisk-poc/pull/32)|Final README Updated| **Open** |
 
-### Issues
+### :pushpin: Issues
 
 
 | Issue link                                                                          | Description                                                        |
@@ -92,6 +93,7 @@ Then I deployed the application Google Cloud Platform's compute engine and the A
 | [#16](https://github.com/HTTP-APIs/creditrisk-poc/issues/16) |Refactor the mock_data_generator|
 | [#18](https://github.com/HTTP-APIs/creditrisk-poc/issues/18) |Automate ontology to josnld creation|
 | [#20](https://github.com/HTTP-APIs/creditrisk-poc/issues/20) |Update Readme & Add more docs|
+| [#33](https://github.com/HTTP-APIs/creditrisk-poc/issues/33) |Fix the datatype of the properties in the NonPerformingLoan.jsonld |
 
 ## :paperclip: Learning and Acknowledgement
 It was an adventurous journey filled with lots of learning at each and every stage,I have learned a lot of things from structuring the repository to the deployment, It was mind-blowing experience working as student developer in Google Summer of Code, It was my dream which came true.<br/>
